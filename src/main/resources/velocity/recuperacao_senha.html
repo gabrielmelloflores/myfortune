@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
+        <style>
+            *{
+                font-family: 'Inter', sans-serif;
+            }
+            .container {
+                width: 338px;
+                height: 475px;
+                text-align: center;
+            }
+
+            .header {
+                display: flex;
+                /* Vertical */
+                align-items: center;
+                /* Horizontal */
+                justify-content: center;
+                width: 338px;
+                height: 80px;
+                flex-shrink: 0;
+                background-color: rgb(241, 177, 50);
+            }
+
+            .titulo {
+                color: #292B2C;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            .content {
+                color: #292B2C;
+                text-align: justify;
+                font-family: Source Sans Pro;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding: 20px 10px 20px 10px;
+                margin-bottom: 10px;
+                width: 338px;
+            }
+
+            .button {
+                width: 160px;
+                height: 28px;
+                background-color: #6B137A;
+                color: white;
+                text-align: center;
+                line-height: 28px;
+                border: none;
+                border-radius: 2px;
+                cursor: pointer;
+                font-size: 14px;
+                margin-bottom: 50px;
+            }
+
+            .cachorro {
+                margin: -5px;
+                padding: 0px;
+            }
+
+            .line {
+                width: 338px;
+                height: 2px;
+                margin-bottom: 10px;
+                background-color: #E5E5E5;
+            }
+
+            .Direitos {
+                color: #AAB2B6;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                font-size: 8px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+
+            .AVMB {
+                color: #DD601B;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                font-size: 8px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                width: 338px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <img alt="Logo Pet Connect" src="cid:logo_pet_connect"/>
+            </div>
+
+            <div class="content">
+                <h2 class="titulo">Recuperar Senha</h2>
+                <p>Ol&aacute;, ${nome}!</p>
+                <p>
+                    Recebemos sua solicita&ccedil;&atilde;o para recuperar sua senha,
+                    fique tranquilo, estamos aqui para te ajudar.
+                </p>
+                <p>Clique no <strong>bot&atilde;o abaixo</strong> para redefinir sua senha!</p>
+            </div>
+
+            <a href="${url}">
+                <button class="button">redefinir senha</button>
+            </a>
+
+            <div class="cachorro">
+                <img alt="Pets" src="cid:pets" style="width: 100%; height: auto;"/>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="Direitos">
+                <p>&copy; Copyright 2023. Todos os direitos reservados.</p>
+            </div>
+            <div class="AVMB">
+                <a href="https://www.avmb.com.br" target="_blank">
+                    <img alt="Logo AVMB" src="cid:logo_avmb"/>
+                </a>
+            </div>
+        </div>
+    </body>
+
+</html>
